@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    color: white;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    height: calc(100vh - 56px);
+}
