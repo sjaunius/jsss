@@ -1,3 +1,15 @@
+.logo{
+  background-color: aquamarine;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: red;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  
+}
+
+
 .flexbox-container {
   display: flex;
 }
@@ -13,6 +25,7 @@
   border: 3px solid black;
   background-color: blueviolet;
   flex-grow: 2;
+  align-self: flex-end;
 }
 
 .flexbox-item1 {
@@ -22,8 +35,8 @@
   border: 10px solid blueviolet;
   background-color: aqua;
   flex-grow: 1;
+  align-self: center;
 }
-
 .flexbox-item2 {
   width: 400px;
   height: 400px;
@@ -31,6 +44,7 @@
   border: 15px solid green;
   background-color: bisque;
   flex-grow: 0;
+
 }
 .flexbox-container1 {
 justify-content: center;
